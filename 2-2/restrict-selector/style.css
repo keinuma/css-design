@@ -1,0 +1,35 @@
+#sidebar {
+  border: 1px solid #CCC;
+  width: 300px;
+  background-color: #FAFAFA;
+}
+#sidebar ul {
+  list-style: none;
+}
+#sidebar > ul > li {
+  border-bottom: 1px dashed #CCC;
+}
+#sidebar > ul > li > a {
+  display: block;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  color: #489;
+}
+#sidebar > ul > li > a:hover {
+  background-color: #FFFFFF;
+}
+
+/* #sidebarは直接子要素にしかかからないため不要 */
+.widget {
+  padding: 10px;
+}
+.links li a {
+  display: block;
+  padding: 0.5em;
+  background-color: #6AB;
+  font-weight: normal;
+  color: #FFF;
+}
+.links li a:hover {
+  background-color: #7BC;
+}
