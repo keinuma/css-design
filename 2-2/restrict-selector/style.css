@@ -3,9 +3,6 @@
   width: 300px;
   background-color: #FAFAFA;
 }
-#sidebar ul {
-  list-style: none;
-}
 .menus > li {
   border-bottom: 1px dashed #CCC;
 }
