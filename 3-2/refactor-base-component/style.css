@@ -1,0 +1,45 @@
+.alert {
+  border: 2px solid #333;
+  margin-top: 10px;
+  border-radius: 16px;
+  padding: 10px;
+  background-color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+/* セレクタ名の名前汚染を防ぐためにコンポーネント名を接頭辞に付与する */
+.alert-success {
+  border-color: #494;
+  background-color: rgba(68, 153, 68, 0.3);
+}
+
+.alert-warning {
+  border-color: #DD0;
+  background-color: rgba(221, 221, 0, 0.3);
+}
+
+.alert-error {
+  border-color: #C44;
+  background-color: rgba(204, 68, 68, 0.3);
+}
+
+.alert-info {
+  border-color: #48C;
+  background-color: rgba(68, 136, 153, 0.3);
+}
+
+/* 全てのpタグに影響がないように、直接子要素を使う */
+/*
+.alert > p {
+  font-size: 18px;
+  font-style: italic;
+}
+*/
+
+/* HTMLの要素によらないクラスに変更 */
+.alert-title {
+  font-size: 18px;
+  font-style: italic;
+}
